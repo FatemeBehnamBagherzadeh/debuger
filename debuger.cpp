@@ -11,7 +11,7 @@ int main()
     cout << "What is your name ? : " ;
     cin >> name 
 
-    cout << "Where do you live > : " ;
+    cout << "Where do you live ? : " ;
     cin >> location ;
 
     // Say hello
