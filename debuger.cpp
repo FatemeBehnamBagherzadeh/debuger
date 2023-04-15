@@ -1,12 +1,14 @@
 // این تمرین جهت یاد اوری و اشنایی با سینتکس زبان سی پلاس پلاس میباشد
-// چندین خطا در کد زیر وجود دارد ان هارا اصلاح کرده
+// چندین خطا در کد زیر وجود دارد ان هارا اصلاح کنید
 
+// وارد کردن کتاب خانه های مورد استفاده
 #include <iostream>
+
 using namespace std ;
 
 int main()
 {
-    // Ask for your name and where live
+    // برنامه از کاربر میپرسد که اسمش چیست و اهل کجاست
     
     cout << "What is your name ? : " ;
     cin >> name 
@@ -14,7 +16,7 @@ int main()
     cout << "Where do you live ? : " ;
     cin >> location ;
 
-    // Say hello
-    cout << "Hello " << name <<  " from " << location << "." ;
+    // چاپ پیام مناسب
+    cout << 'Hello ' << "name" <<  " from " << location << "." ;
     return 0 ;
 }
